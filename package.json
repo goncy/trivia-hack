@@ -1,0 +1,35 @@
+{
+  "name": "trivia-hack",
+  "version": "0.0.1",
+  "description": "Trivia crack auto answer",
+  "main": "./src/index.js",
+  "author": "goncy",
+  "license": "MIT",
+  "bin": {
+    "trivia-hack": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "eslint": "^4.2.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.11.0",
+    "prettier": "^1.5.2"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "commander": "^2.11.0",
+    "inquirer": "^3.2.0",
+    "ramda": "^0.24.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.1"
+  }
+}
